@@ -13,12 +13,12 @@ Les étapes :
 
 ## Pré-requis
 
-* Installer postgreSQL et postGIS
-* Installer python, pip et virtualenv
-* Créer une BDD
-* Créer une extension postGIS
+* PostgreSQL et postGIS installés
+* python, pip et virtualenv installés
+* Dans PG, BDD et extension postGIS crées
 * Modifier le fichier conf/conf.json (infos BDD)
-* Cloner le projet
+
+## Lancement shell
 
 ```shell
 git clone https://github.com/eric-pommereau/anfr-integration-python-pg
