@@ -1,0 +1,29 @@
+{
+    "postgres":{
+        "host":"localhost",
+        "user":"",
+        "passwd":"",
+        "db":"anfr"
+    },
+    "separator":";",
+    "dl" : {
+        "datas" : "https://www.data.gouv.fr/s/resources/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1/20160905-120442/20160827_DATA.zip",
+        "ref" : "https://www.data.gouv.fr/s/resources/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1/20160905-115854/20160827_Tables_de_reference.zip"
+        },
+    "files":{
+        "datas":[
+            "SUP_STATION.txt",
+            "SUP_SUPPORT.txt",
+            "SUP_ANTENNE.txt",
+            "SUP_EMETTEUR.txt",
+            "SUP_BANDE.txt"
+            ],
+        "ref":[
+            "SUP_EXPLOITANT.txt",
+            "SUP_PROPRIETAIRE.txt",
+            "SUP_NATURE.txt",
+            "SUP_TYPE_ANTENNE.txt"
+        ],
+        "directory" : "./datas/"
+    }
+}
