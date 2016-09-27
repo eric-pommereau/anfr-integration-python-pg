@@ -6,7 +6,7 @@ from utils import *
 from sql import *
 
 parser = argparse.ArgumentParser(prog='anfr_process', usage='%(prog)s [options]')
-parser.add_argument("--download", "-d", nargs='?', help="download remote files", default=False)
+parser.add_argument("--download", "-d", help="download remote files", type=bool, default=False)
 
 args = parser.parse_args()
 
@@ -16,6 +16,8 @@ conf = getConf('./conf/conf.json')
 datasDir = conf['files']['directory']
 fileUrlDatas = conf['dl']['datas']
 fileUrlRef = conf['dl']['ref']
+
+
 
 # télécharger le fichier zippé
 if (args.download == True):
